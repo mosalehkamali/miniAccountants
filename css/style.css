@@ -1,0 +1,71 @@
+body {
+  background: #2e364e;
+  padding: 20px;
+}
+
+.topPage {
+  background-color: #1f2535;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  height: 80px;
+}
+
+.addingButten {
+  width: 100%;
+}
+
+.btn {
+  width: 50%;
+}
+
+.addingForm {
+  width: 100%;
+  padding: 15px;
+  border: 1px  groove black;
+  border-radius: 10px;
+}
+#addon-wrapping,#searchButton,.matching-styles{
+  background-color: #2e364e;
+  color: white;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.input-group{
+  height: 30px;
+}
+.date-control{
+  width: 20%;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+#topAddigButton{
+  visibility: visible;
+}
+#addingForm{
+  visibility:  hidden;
+}
+.peresonItemStyle{
+  direction: rtl;
+  background-color: #1a1929;
+  width: 100%;
+  padding: 20px;
+  font-size: 24px;
+  color: white;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+}
+span{
+  background-color: rgba(75, 74, 74, 0.568);
+  border-radius: 5px;
+}
+.removebtnStyle{
+ width: 30%;
+ background-color: darkgoldenrod;
+ border-radius: 5px; 
+}

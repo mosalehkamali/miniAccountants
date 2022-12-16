@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#376eb5" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="image/icon1.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="image/icon1.png">
+    <title>Mini Accountants</title>
+</head>
+
+<body>
+    <div class="searchbar" id="searchbar">
+        <div class="input-group flex-nowrap">
+            <button class="input-group-text" id="searchButton">جستوجو</button>
+            <input type="text" class="form-control" id="searchInput" placeholder="نام را وارد کنید" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+    </div>
+    <div class="topPage" id="topPage">
+        <div class="addingButton d-flex  justify-content-center" id="upper-button">
+            <button type="button" class="btn btn-success" id="topAddigButton"><b>+ اضافه کردن +</b></button>
+        </div>
+        <form id="addingForm">
+            <div class="addingForm">
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">نام</span>
+                    <input type="text" class="form-control matching-styles" id="nameInput" placeholder="name"
+                        aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">تلفن</span>
+                    <input type="number" class="form-control matching-styles" id="numberInput" placeholder="number"
+                        aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">مبلغ</span>
+                    <input type="number" class="form-control matching-styles" id="amountInput" placeholder="amount"
+                        aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">تاریخ</span>
+                    <div class="date-input d-flex" style="color: white; margin: 1px;">
+                        <input type="namber" class="date-control matching-styles" id="dateYearInput" placeholder="سال"
+                            aria-label="Username" aria-describedby="addon-wrapping">
+                        /
+                        <input type="namber" class="date-control  matching-styles" id="dateMonthInput" placeholder="ماه"
+                            aria-label="Username" aria-describedby="addon-wrapping">
+                        /
+                        <input type="namber" class="date-control  matching-styles" id="dateDayInput" placeholder="روز"
+                            aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">تاریخ سررسید</span>
+                    <div class="date-input d-flex" style="color: white; margin: 1px;">
+                        <input type="namber" class="date-control matching-styles" id="receiveYearInput"
+                            placeholder="سال" aria-label="Username" aria-describedby="addon-wrapping">
+                        /
+                        <input type="namber" class="date-control matching-styles" id="receiveMonthInputt"
+                            placeholder="ماه" aria-label="Username" aria-describedby="addon-wrapping">
+                        /
+                        <input type="namber" class="date-control matching-styles" id="receiveDayInput" placeholder="روز"
+                            aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                </div>
+                <div class="input-group" style="height:auto;">
+                    <span class="input-group-text" id="addon-wrapping">توضیحات</span>
+                    <textarea class="form-control matching-styles" id="descriptionInput"
+                        aria-label="With textarea"></textarea>
+                </div>
+                <div class="addingButton d-flex  justify-content-center gap-2 mt-3">
+                    <button type="submit" class="btn btn-success" id="bottomAddingButton"><b>+ اضافه کردن +</b></button>
+                    <button type="button" class="btn btn-danger" id="cancelButton">لغو</button>
+                </div>
+            </form>
+        </div>
+        
+        <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
